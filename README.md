@@ -12,9 +12,9 @@ Welcome to Advanced Test Execution Report Repo. This repo has implementation of 
 * All the required files would be generated under test-output\AutoBahn_Test_Execution_Reports along with execution report.
 * The execution report can also be opened in the browser automatically based on the user's selection.
 ### Sample Report:
-![Screenshot](\TestConfig\Report.png)
+![Screenshot](\Report.png)
 ## Sample Report with Stack Trace:
-![Screenshot](\TestConfig\Report_With_Stack_Trace.png)
+![Screenshot](\Report_With_Stack_Trace.png)
 ### How to use it:
 * As of today, this library is not published in maven repo, so you would need to clone this project and  deploy locally by running `mvn clean install` or deploy a snapshot in your own repository like `mvn clean -B deploy`. Currently there are some open issues. Please check the disclaimer section below.
 
