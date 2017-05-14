@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Report Test Suite" configfailurepolicy="skip">
+    <listeners>
+        <listener class-name="com.report.core.HtmlReportListener"/>
+    </listeners>
+
+    <test name="Sample Report Tests" configfailurepolicy="skip">
+        <classes>
+            <class name="com.qa.test.scenarios.SampleTests"/>
+        </classes>
+    </test>
+</suite>
